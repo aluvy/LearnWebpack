@@ -58,6 +58,8 @@ module.exports = {
   devtool: '#eval-source-map',
 };
 
+// webpack 3 에서 사용하던 옵션
+
 // if (process.env.NODE_ENV === 'production') {
 //   module.exports.devtool = '#source-map'
 //   // http://vue-loader.vuejs.org/en/workflow/production.html
